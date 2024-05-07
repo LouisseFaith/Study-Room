@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>Study Room | Notes</title>
+    <link rel="stylesheet" href="style_notes.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="logo_item">
+        <i class="bx bx-menu" id="sidebarOpen"></i>
+        <img src="appletalaga.jpg" alt="Logo"></i>Study Room
+      </div>
+
+      <div class="search_bar">
+        <input type="text" placeholder="Search" />
+      </div>
+
+      <div class="navbar_content">
+        <i class="bi bi-grid"></i>
+        <i class='bx bx-sun' id="darkLight"></i>
+        <img src="profilepic.jpg" alt="Profile Picture" class="profile" />
+      </div>
+    </nav>
+
+    <!-- sidebar -->
+    <nav class="sidebar">
+      <div class="menu_content">
+        <ul class="menu_items">
+          <div class="menu_title menu_dahsboard"></div>
+
+          <!-- start -->
+          <li class="item">
+            <div href="Website_FinalHome.html" class="nav_link submenu_item">
+              <span class="navlink_icon">
+                <i class="bx bx-home-alt"></i>
+              </span>
+              <span class="navlink">Home</span>
+              <i class="bx bx-chevron-right arrow-left"></i>
+            </div>
+
+            <ul class="menu_items submenu">
+              <a href="Website_FinalHome.html" class="nav_link sublink">Back to Home</a>
+              <a href="Website_FinalClock.html" class="nav_link sublink">Clock</a>
+              <a href="Website_FinalNotes.html" class="nav_link sublink">Notes</a>
+              <a href="Website_FinalTodo.html" class="nav_link sublink">To Do</a>
+              <a href="Website_FinalAlbum.html" class="nav_link sublink">Album</a>
+            </ul>
+          </li>
+          <!-- end -->
+
+
+        </ul>
+
+        <ul class="menu_items">
+          <div class="menu_title menu_About Us"></div>
+
+
+          <li class="item">
+            <a href="Website_AboutUs.html" class="nav_link">
+              <span class="navlink_icon">
+                <i class="bx bx-loader-circle"></i>
+              </span>
+              <span class="navlink">About Us</span>
+            </a>
+          </li>
+          
+        </ul>
+
+        <!-- Sidebar Open / Close -->
+        <div class="bottom_content">
+          <div class="bottom expand_sidebar">
+            <span> Expand</span>
+            <i class='bx bx-log-in' ></i>
+          </div>
+          <div class="bottom collapse_sidebar">
+            <span> Collapse</span>
+            <i class='bx bx-log-out'></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="popup-box">
+        <div class="popup">
+          <div class="content">
+            <header>
+              <p></p>
+              <i class="uil uil-times"></i>
+            </header>
+            <form action="Homepage_Final.html">
+              <div class="row title">
+                <label>Title</label>
+                <input type="text" spellcheck="false">
+              </div>
+              <div class="row description">
+                <label>Description</label>
+                <textarea spellcheck="false"></textarea>
+              </div>
+              <button></button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper">
+        <li class="add-box">
+          <div class="icon"><i class="uil uil-plus"></i></div>
+          <p>Add new note</p>
+        </li>
+      </div>
+  
+
+
+    <!-- JavaScript -->
+    <script src="script_notes.js"></script>
+  </body>
+</html>

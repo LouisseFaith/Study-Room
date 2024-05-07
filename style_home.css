@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Optional: Prevent scrolling */
+    width: 100%;
+    height: 100%;
+    margin-top: 3cm;
+    text-align: center;
+    font-family: 'Cormorant Garamond', sans-serif;
+}
+
+.menu-collapsed body {
+    padding-left: 50px; /* Adjust the value to the width of your collapsed menu */
+}
+html {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('homepicture.jpeg');
+    background-size: cover; /* Adjust to 'contain' if needed */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+    cursor: pointer;
+    z-index: 9999; /* Ensure the overlay is above other elements */
+}
+h1{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+a,p{
+    text-decoration: none;
+    text-transform: none;
+    color: black;
+}
